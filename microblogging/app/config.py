@@ -1,0 +1,8 @@
+from datetime import timedelta
+
+HOST,PORT,USER,PASS,DB='localhost',3306,'root','0000','microblog'
+JWT_SECRET_KEY = "g6k6sKpVe&D#Ze9k7CS89Xyykd!fT&Ss2bR9iVBPBrPU$ySCAypefU@9hNL#yKB&"
+JWT_ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+RATE_LIMIT_DURATION=timedelta(minutes=1)
+RATE_LIMIT_REQUESTS=100
